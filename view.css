@@ -1,0 +1,986 @@
+﻿/************************************************************ BODY ********************************************************/
+body
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: .80em;
+    font-family: "Helvetica Neue" , "Lucida Grande" , "Segoe UI" , Arial, Helvetica, Verdana, sans-serif;
+    margin-top: 0px;
+}
+
+/****************************************************** PRIMARY LAYOUT ELEMENTS *******************************************/
+/*** PAGE ***/
+.page
+{
+    width: 960px;
+    height: auto;
+    margin: 0px auto 0px auto; /*top right bottom left*/
+    background: #373E49;
+}
+/*** HEADER ***/
+.header
+{
+    position: relative;
+    height: 85px;
+    top: 0px;
+    width: 960px;
+}
+/*** HEADER ***/
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+/*** MAIN ***/
+.main
+{
+    padding: 0px 12px;
+    margin: 12px 8px 8px 8px; /*top right bottom left*/
+    min-height: 420px;
+    width: 1024px;
+}
+/*** LEFT COLUMN ALIGNMENT ***/
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px; /*top right bottom left*/
+    width: 200px;
+    min-height: 200px;
+}
+/*** FOOTER ***/
+.footer
+{
+    background-color: #005AA9; /* fallback color if gradients are not supported */
+    padding: 8px 0px 0px 0px; /*top right bottom left*/
+    margin: 0px auto 0px auto; /*top right bottom left*/
+    text-align: center;
+    height: 20px;
+    width: 960px;
+}
+/*** Footer Copyrights ***/
+.copywrite
+{
+    font-size: 12px;
+    color: white;
+}
+/************************************************************ LOGO ************************************************************/
+/*** Office Attendance Logo ***/
+.logo
+{
+    background-image: url(./images/forageplace.png);
+    width: 960px;
+    margin: 0px;
+    background-repeat: no-repeat;
+}
+
+/*** Blue Line ***/
+.line
+{
+    background: #3765AF;
+    height: 5px;
+    width: 959px;
+}
+/*** PAGE CONTENT ***/
+.pagecontent
+{
+    width: 960px;
+    height: 520px;
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+/************************************************************ FLOAT **************************************************/
+.leftfloat
+{
+    float: left;
+}
+
+.rightfloat
+{
+    float: right;
+}
+/********************************************************* FORM BACKGROUND **************************************************/
+
+.formbackgroundgray
+{
+    width: 200px;
+    height: 520px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.formbackgroundwhite
+{
+    width: 700px;
+    height: 520px;
+    background: #fcfcfc; /* background color */
+    border-radius: 5px; /*IE*/
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+}
+
+
+/********************************************************* GRID BACKGROUND ****************************************************/
+.gridbackgroundgray
+{
+    width: 200px;
+    height: 270px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.gridbackgroundwhite
+{
+    width: 700px;
+    height: 520px;
+    background: #fcfcfc; /* background color */
+    border-radius: 5px; /*IE*/
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+}
+/********************************************************* TEXT BOX *****************************************************/
+/*** BIG TEXTBOX ***/
+.Bigtextbox
+{
+    border: 1px solid #B4B4B4;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */ /*IE*/
+    background-color: #F0F0F0; /* fallback color if gradients are not supported */
+    height: 25px;
+    width: 273px;
+}
+/*** DROP DOWN LIST ***/
+
+.smalldropdown
+{
+    border: 1px solid #B4B4B4;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */ /*IE*/
+    background-color: #F0F0F0; /* fallback color if gradients are not supported */
+    height: 30px;
+    width: 300px;
+}
+.Other
+{
+    width: 250px;
+    float: left;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.smalldropdown2
+{
+    border: 1px solid #B4B4B4;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */ /*IE*/
+    background-color: #F0F0F0; /* fallback color if gradients are not supported */
+    height: 30px;
+    width: 200px;
+}
+
+.dropdown
+{
+    border: 1px solid #B4B4B4;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */ /*IE*/
+    background-color: #F0F0F0; /* fallback color if gradients are not supported */
+    height: 30px;
+    width: 276px;
+}
+/*** SMALL TEXTBOX ***/
+.smalltextbox
+{
+    border: 1px solid #B4B4B4;
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+    border-radius: 5px; /* CSS3 */ /*IE*/
+    background-color: #F0F0F0; /* fallback color if gradients are not supported */
+    height: 25px;
+    width: 150px;
+}
+
+
+
+/*************************************************** FORM DESIGN ***************************************/
+.formtitle
+{
+    height: 37px;
+    text-align: center;
+    width: 600px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.maindiv
+{
+    width: 830px;
+    height: 31px;
+    float: left;
+}
+.SUARmaindiv
+{
+    width: 830px;
+    float: left;
+}
+.mainleftdiv
+{
+    width: 175px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+.mainrightdiv
+{
+    width: 450px;
+    float: left;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.buttonsave
+{
+    width: 336px;
+    height: 36px;
+    text-align: right;
+    float: left;
+    margin-top: 12px;
+}
+.trackbuttonsave
+{
+    width: 355px;
+    height: 36px;
+    text-align: right;
+    float: left;
+    margin-top: 12px;
+}
+.Leavebuttonsave
+{
+    width: 380px;
+    height: 36px;
+    text-align: right;
+    float: left;
+    margin-top: 12px;
+}
+
+/*********************************************** SPLITTING THE PAGES *****************************************************/
+/*** Client ***/
+.SplitClient
+{
+    position: absolute;
+    top: 500;
+    left: 500;
+    visibility: hidden;
+    width: 650px;
+}
+.DisplaySplitClient
+{
+    position: absolute;
+    top: 500;
+    left: 500;
+    visibility: hidden;
+    width: 400px;
+}
+
+.SplitClientUpdate
+{
+    position: absolute;
+    top: 500;
+    left: 500;
+    visibility: hidden;
+    width: 650px;
+}
+/*** Employee ***/
+.SplitEmployee
+{
+    position: absolute;
+    top: 10;
+    left: 100;
+    visibility: hidden;
+    width: 650px;
+}
+.SplitUpdateEmployee
+{
+    position: absolute;
+    top: 10;
+    left: 100;
+    visibility: hidden;
+    width: 650px;
+}
+/************************************************* POP UP (View Pages)******************************************************/
+.formviewgray
+{
+    width: 200px;
+    height: 500px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.formviewwhite
+{
+    width: 400px;
+    height: 500px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+.modalBackground
+{
+    background: rgb(51, 51, 51); /* Fallback */
+    background: rgba(51, 51, 51, 0.5); /* For IE8 and earlier */
+    filter: alpha(opacity=80);
+    opacity: 20;
+    z-index: 10000;
+}
+.panel
+{
+    width: 700px;
+}
+.viewdiv
+{
+    width: 830px;
+    height: 31px;
+    float: left;
+}
+.viewleftdiv
+{
+    width: 175px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+.viewrightdiv
+{
+    width: 600px;
+    float: left;
+    margin-left: 40px;
+    text-align: left;
+}
+.cancel
+{
+    width: 400px;
+    height: 36px;
+    text-align: center;
+    float: left;
+    margin-top: 12px;
+}
+.HardwareReplacecancel
+{
+    width: 300px;
+    height: 36px;
+    text-align: center;
+    float: left;
+    margin-top: 12px;
+}
+.Branchcancel
+{
+    width: 430px;
+    height: 36px;
+    text-align: center;
+    float: left;
+    margin-top: 12px;
+}
+.Hardwarecancel
+{
+    width: 510px;
+    height: 36px;
+    text-align: center;
+    float: center;
+    margin-top: 12px;
+}
+.Branchformviewgray
+{
+    width: 150px;
+    height: 500px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.Branchformviewwhite
+{
+    width: 350px;
+    height: 500px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+.Branchviewleftdiv
+{
+    width: 130px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+.Networkviewleftdiv
+{
+    width: 100px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+.SUARviewleftdiv
+{
+    width: 100px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+.HardwareReplaceviewleftdiv
+{
+    width: 130px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+.Leaveviewleftdiv
+{
+    width: 125px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+.ARviewleftdiv
+{
+    width: 115px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+/*** Super User Access Rights ***/
+.SUARformviewgray
+{
+    width: 120px;
+    height: 240px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.SUARformviewwhite
+{
+    width: 350px;
+    height: 240px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+/*** VIEW PAGE (HARDWARE) ***/
+.formhardwaregray
+{
+    width: 175px;
+    height: 470px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.formhardwarewhite
+{
+    width: 350px;
+    height: 470px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+.Hardwareviewleftdiv
+{
+    width: 150px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+/*** View Page Network ***/
+.Networkformviewgray
+{
+    width: 120px;
+    height: 200px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.Networkformviewwhite
+{
+    width: 300px;
+    height: 200px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+/*** Hardware Replace ***/
+.Hardwareformviewgray
+{
+    width: 150px;
+    height: 300px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.Hardwareformviewwhite
+{
+    width: 400px;
+    height: 300px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+/*** Client View Page ***/
+
+.Clientformbackgroundgray
+{
+    width: 200px;
+    height: 560px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.Clientformbackgroundwhite
+{
+    width: 400px;
+    height: 560px;
+    background: #fcfcfc; /* background color */
+    border-radius: 5px; /*IE*/
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+}
+.Clientviewdiv
+{
+    width: 1230px;
+    height: 31px;
+    float: left;
+}
+.Clientviewleftdiv
+{
+    width: 175px;
+    float: left;
+    text-align: right;
+}
+.Clientviewrightdiv
+{
+    width: 600px;
+    float: left;
+    margin-left: 40px;
+    text-align: left;
+}
+.Clientformtitle
+{
+    height: 37px;
+    text-align: center;
+    width: 400px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.ClientmodalBackground
+{
+    background: rgb(51, 51, 51); /* Fallback */
+    background: rgba(51, 51, 51, 0.5); /*   For IE8 and earlier */
+    filter: alpha(opacity=80);
+    opacity: 20;
+    z-index: 10000;
+}
+.Clientcancel
+{
+    width: 400px;
+    height: 5px;
+    text-align: center;
+    float: Left;
+    margin-top: 12px;
+}
+/*** View Leave Page ***/
+.Leaveformviewgray
+{
+    width: 150px;
+    height: 350px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.Leaveformviewwhite
+{
+    width: 330px;
+    height: 350px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+/*** Access Rights in Client Folder ***/
+.ARformviewgray
+{
+    width: 135px;
+    height: 250px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.ARformviewwhite
+{
+    width: 350px;
+    height: 250px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+/**************************************************** Employee **************************************************/
+.Employeeformbackgroundgray
+{
+    width: 200px;
+    height: 500px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.Employeeformbackgroundwhite
+{
+    width: 400px;
+    height: 500px;
+    background: #fcfcfc; /* background color */
+    border-radius: 5px; /*IE*/
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+}
+/**************************************************** Make A Payment ************************************************************/
+.makediv
+{
+    width: 680px;
+    height: 31px;
+    float: left;
+}
+.makeleftdiv
+{
+    width: 175px;
+    float: left;
+    height: 26px;
+    margin-left: 0px;
+    text-align: right;
+}
+.makerightdiv
+{
+    width: 310px;
+    float: left;
+    margin-left: 40px;
+    text-align: left;
+}
+.makesave
+{
+    width: 336px;
+    height: 36px;
+    text-align: right;
+    float: left;
+    margin-top: 12px;
+}
+/*********************************************** Display Payment *************************************************/
+.Paymentformviewgray
+{
+    width: 200px;
+    height: 350px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.Paymentformviewwhite
+{
+    width: 400px;
+    height: 350px;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+/********************************************** Close Button **********************************************/
+/*** Branch ***/
+.Bclose-btn
+{
+    position: relative;
+    top: -20px;
+    left: 270px;
+}
+
+.Bclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+/*** Client ***/
+.Cclose-btn
+{
+    position: relative;
+    top: -22px;
+    left: 295px;
+}
+
+.Cclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+/*** Hardware Unit ***/
+.Hclose-btn
+{
+    position: absolute;
+    left: 510px;
+    top: -5px;
+}
+
+.Hclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+/*** Network ***/
+.Nclose-btn
+{
+    position: absolute;
+    left: 485px;
+    top: -5px;
+}
+
+.Nclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+/*** SUAR ***/
+.Sclose-btn
+{
+    position: absolute;
+    left: 510px;
+    top: -5px;
+}
+
+.Sclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+/*** Hardware Replace ***/
+.HRclose-btn
+{
+    position: absolute;
+    left: 535px;
+    top: -5px;
+}
+
+.HRclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+/*** Employee ***/
+.Eclose-btn
+{
+    position: relative;
+    top: -22px;
+    left: 295px;
+}
+
+.Eclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+/*** Leave ***/
+.Lclose-btn
+{
+    position: relative;
+    top: -22px;
+    left: 250px;
+}
+
+.Lclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+/*** Access Rights ***/
+.ARclose-btn
+{
+    position: relative;
+    top: -22px;
+    left: 280px;
+}
+
+.ARclose-btn a
+{
+    font-size: 15px;
+    font-weight: bold;
+    color: transparent;
+    text-decoration: none;
+}
+
+/***************************************************** GRIDVIEW ROUNDED CORNERS *******************************************************/
+/*.round
+{
+    border: 1px solid red;
+    -moz-border-radius: 5px;/*firefox
+    -webkit-border-radius: 5px;/* SAFARI ,CHROME
+    border-radius: 5px;/*IE
+} ****/
+
+
+/*** Client View Page in Gridview as Scrollbar ***/
+.ClientViewformbackgroundgray
+{
+    width: 200px;
+    height: 2430px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.ClientViewformbackgroundwhite
+{
+    width: 400px;
+    height: 2430px;
+    background: #fcfcfc; /* background color */
+    border-radius: 5px; /*IE*/
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+}
+
+
+
+/********************************************************* BranchTimings BACKGROUND **************************************************/
+
+.BranchTimingsgroundgray
+{
+    width: 200px;
+    height: 157px;
+    background: #e8ebeb; /* background color */
+    float: left;
+    border-radius: 5px 0px 0px 5px; /*IE*/
+    -moz-border-radius: 5px 0px 0px 5px; /* Firefox */
+    -webkit-border-radius: 5px 0px 0px 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px 0px 0px 5px; /* KHTML */
+}
+.BranchTimingsgroundwhite
+{
+    width: 700px;
+    height: 520px;
+    background: #fcfcfc; /* background color */
+    border-radius: 5px; /*IE*/
+    -moz-border-radius: 5px; /* Firefox */
+    -webkit-border-radius: 5px; /* Safari, Chrome */
+    -khtml-border-radius: 5px; /* KHTML */
+}
+.BranchTimings
+{
+    width: 650px;
+}
+.AddShiftDetailsWhite
+{
+    width: 970px;
+    height: 500px;
+    left: -100px;
+    position: relative;
+    background: #fcfcfc; /* background color */
+    border-radius: 1px; /*IE*/
+    -moz-border-radius: 1px; /* Firefox */
+    -webkit-border-radius: 1px; /* Safari, Chrome */
+    -khtml-border-radius: 1px; /* KHTML */
+}
+
+
+
+.AddShiftclose-btn
+{
+    position: relative;
+    top: -60px;
+    left: 480px;
+}

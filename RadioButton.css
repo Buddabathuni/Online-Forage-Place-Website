@@ -1,0 +1,38 @@
+﻿.radio
+{
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.radio + label.css-label
+{
+    padding-left: 20px;
+    height: 20px;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px; 
+    -khtml-border-radius: 1px; 
+    border-radius: 1px; 
+    display: inline-block;
+    line-height: 15px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 15px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.radio:checked + label.css-label
+{
+    background-position: 0 -20px;
+}
+
+.css-label
+{
+    background-image: url('D:\Office Work\Code\july\30-07-2013 Horizontal Menu\BioMetrics\Images\check.png');
+}

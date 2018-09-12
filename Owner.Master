@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Owner.master.cs" Inherits="EventPortalManagement.Owner" %>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Forage Place - Event Management</title>
+    <link href="Styles/menu.css" rel="stylesheet" type="text/css" />
+    <link href="Styles/view.css" rel="stylesheet" type="text/css" />
+    
+    <link href="Styles/Autocomplete.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        <div class="page">
+            <div class="header">
+                <center>
+                    <div class="logo" id="WinmethodsLogo" runat="server">
+                    </div>
+                    <%--<span class="header" style="position: relative; height: 80px; display: inline-block;
+                        visibility: false" id="logospam" runat="server">
+                        <div class="Clientlogo" id="ClientWinmethodsLogo" runat="server">
+                        </div>
+                        <div id="imgForeground" style="position: absolute; top: 0px; left: 100px; text-align: center"
+                            runat="server">
+                            <asp:Image ID="ClientImage" runat="server" Height="70px" Width="200px" />
+                        </div>
+                    </span>--%>
+                    <div class="line">
+                    </div>
+                </center>
+            </div>
+            <div id="Div1" style="position: absolute; top: 0px; left: 100px; text-align: center"
+                runat="server">
+            </div>
+            <div id="Divmenu" class="test" runat="server">
+            </div>
+            <div class="pagecontent">
+                <asp:ContentPlaceHolder ID="PageContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="copywrite">
+                Copyright &copy;2014 Forage Place</div>
+        </div>
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
